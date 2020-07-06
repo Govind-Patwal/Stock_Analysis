@@ -66,7 +66,7 @@ According to https://en.wikipedia.org/wiki/Code_refactoring - Refactoring is int
 On a flip side, refactoring a code almost usually takes more time than writing the original code as we are working on *fixing* a code that isn't broken. Then, there are chances of introduction of bugs and errors.
 
 ### How do these pros and cons apply to refactoring the original VBA script?
-As we saw, refactorying made the code almost 5x-6x times faster. It also made it more readable and easier to debug. On the other side, it took me almost 3x to refactor the code than to write the original code.  
+As we saw, refactoring made the code almost 5x-6x times faster. It also made it more readable and easier to debug. On the other side, it took me almost 3x to refactor the code than to write the original code.  
 
 
 
