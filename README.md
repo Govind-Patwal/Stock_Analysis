@@ -18,16 +18,12 @@ We already had a peice of working code, we decided to refactor that code to get 
 Below are the steps that we undertook
 
 1) In the new code, a new variable `tickerIndex` was introduced to access the elements of the array.
-2) `tickerIndex` would not only access the elements of the array `tickers()` that was already present, but also let us create 3 new arrays `tickerVolumes`, `tickerStartingPrices`, and `tickerEndingPrices`
+2) `tickerIndex` would not only access the elements of the array `tickers()` that was already present, but also let us create 3 new arrays `tickerVolumes()`, `tickerStartingPrices()`, and `tickerEndingPrices()`
 4) As the code in the `For` goes through all the rows, it will read the corresponding ticker, and do the following
-
-        - a) if it is not the same ticker as in the last row, it will copy its closing price to the element `tickerStartingPrice(tickerIndex)`
-
-        - b) if it is the ame ticker as in the last row, it will add the Volume of the row to the elemtnt `tickerVolumes(tickerIndex)`
-
-        - c)if the ticker in the next row is not the same as the current row's ticker, it will copy the closing price of this row to the element                
+        - if it is not the same ticker as in the last row, it will copy its closing price to the element `tickerStartingPrice(tickerIndex)`
+        - if it is the ame ticker as in the last row, it will add the Volume of the row to the elemtnt `tickerVolumes(tickerIndex)`
+        - if the ticker in the next row is not the same as the current row's ticker, it will copy the closing price of this row to the element                
             `tickerClosingPrice(tickerIndex)`. Since the next ticker is a different one, the `tickerIndex` is increased by 1.
-
 4) The values for `ticker`, `tickerVolumes` and `Return` are calculated using the variable `tickerIndex`
 
 ## Analysis Results
