@@ -32,10 +32,10 @@ c)if the ticker in the next row is not the same as the current row's ticker, it 
 ## Analysis Results
 Since we had data for 2 years, 2018 and 2019; our analysis yielded resuls for 2017 and 2018 
 1) Result based on 2017 data 
-![Year 2017 Output](./resources/Year2017_Output.png)
+![Year 2017 Output](./Resources/Year2017_Output.png)
 
 2) Result based on 2018 data  
-![Year 2018 Output](./resources/Year2018_Output.png)
+![Year 2018 Output](./Resources/Year2018_Output.png)
 
 The result of the analysis is that `DQ` is the most fluctuating stock - while it was the top performing stock in the year 2017 with returns of +199.4%, but in 2018 it was the worst performing stock with return of -62%. A more stable stock is ENPH which gave good return in both years: 129% in 2017 and 81.9% in 2018. It seems RUN is also a good option, with +5.5% returns in 2017 and +84.0% in 2018 (one of the only 2 to be green in 2018)
 
@@ -45,12 +45,12 @@ The result of the analysis is that `DQ` is the most fluctuating stock - while it
 *Time taken to run the code for 2017 before refactoring: 0.961 seconds*
 
 *Time taken to run the code for 2017 after refactoring: 0.144 seconds (**6.67x faster**)*
-![VBA Challenge 2017](./resources/VBA_Challenge_2017.png)
+![VBA Challenge 2017](./Resources/VBA_Challenge_2017.png)
 
 *Time taken to run the code for 2018 before refactoring: 1.180 seconds*
 
 *Time taken to run the code for 2018 after refactoring: 0.230 seconds (**5.13x faster**)*
-![VBA Challenge 2018](./resources/VBA_Challenge_2018.png)
+![VBA Challenge 2018](./Resources/VBA_Challenge_2018.png)
 
 ### Challenges and Difficulties Encountered
 The instructions **Create a `tickerIndex` variable and set it equal to zero before iterating over all the rows.** confused me a lot. I initially thought that the ask is to create a dynamic array that would have the capability to process any **Tickers** (even those not mentioned in our dataset). I searched many resources for dynamic arays and this took me many hours. I read the instructions over and over but was stil not clear. I decided to look into the `challenge_starter_code` and it occoured to me that the ask is not to create dynamic arrays or introduce any new concepts, but to refactor the earlier code to make it more effecient.
