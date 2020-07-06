@@ -32,9 +32,11 @@ c)if the ticker in the next row is not the same as the current row's ticker, it 
 ## Analysis Results
 Since we had data for 2 years, 2018 and 2019; our analysis yielded resuls for 2017 and 2018 
 1) Result based on 2017 data 
+
 ![Year 2017 Output](./Resources/Year2017_Output.PNG)
 
-2) Result based on 2018 data  
+2) Result based on 2018 data
+
 ![Year 2018 Output](./Resources/Year2018_Output.PNG)
 
 The result of the analysis is that `DQ` is the most fluctuating stock - while it was the top performing stock in the year 2017 with returns of +199.4%, but in 2018 it was the worst performing stock with return of -62%. A more stable stock is ENPH which gave good return in both years: 129% in 2017 and 81.9% in 2018. It seems RUN is also a good option, with +5.5% returns in 2017 and +84.0% in 2018 (one of the only 2 to be green in 2018)
